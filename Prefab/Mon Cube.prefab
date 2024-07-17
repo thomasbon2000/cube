@@ -9,6 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6712442419063923963}
+  - component: {fileID: 2784534636951890178}
+  - component: {fileID: 6095850282563310706}
+  - component: {fileID: 7762597543191031002}
   m_Layer: 0
   m_Name: Mon Cube
   m_TagString: Untagged
@@ -32,6 +35,49 @@ Transform:
   - {fileID: 2331705664923713406}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2784534636951890178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3288435501452723972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f6b0e2be14487498b2845eab879b67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_firstName: Thomas
+  m_lastName: Bon
+  m_portfolioUrl: https://www.youtube.com/@eloistreeraw
+  m_githubUrl: https://github.com/EloiStree?tab=repositories
+  m_linkedinUrl: https://www.linkedin.com/in/eloistree
+--- !u!114 &6095850282563310706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3288435501452723972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5a90e922b18454486c7cca6c899e7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_cubeRoot: {fileID: 6712442419063923963}
+--- !u!114 &7762597543191031002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3288435501452723972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982766e3044ddb147a0d138e93e5638e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_guid: 5b9de677-fe1d-464c-b174-411be0074e95
 --- !u!1 &5835926989471234577
 GameObject:
   m_ObjectHideFlags: 0
